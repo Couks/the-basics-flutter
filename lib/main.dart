@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
         title: 'First Flutter App',
         theme: ThemeData(
           primarySwatch: Colors.blue,
+          textTheme: Theme.of(context).textTheme.apply(fontFamily: 'OpenSans'),
           visualDensity: VisualDensity.adaptivePlatformDensity,
         ),
         home: HomeView());
