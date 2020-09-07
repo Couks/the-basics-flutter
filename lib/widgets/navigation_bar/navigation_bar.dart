@@ -11,9 +11,9 @@ class NavigationBar extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
             SizedBox(
-              height: 80, 
-              width: 150, 
-              child: Image.asset('assets/logo.png')
+              height: 80,
+              width: 150,
+              child: Image.asset('logo.png'),
             ),
             Row(
               mainAxisSize: MainAxisSize.min,
